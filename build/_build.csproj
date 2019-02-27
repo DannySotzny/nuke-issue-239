@@ -13,6 +13,12 @@
     <PackageReference Include="Nuke.Common" Version="0.17.3" />
   </ItemGroup>
 
+  
+<ItemGroup>
+    <NukeExternalFiles Include="**\*.*.ext" Exclude="bin\**;obj\**" />
+</ItemGroup>
+
+
   <ItemGroup>
     <NukeMetadata Include="**\*.json" Exclude="bin\**;obj\**" />
     <NukeExternalFiles Include="**\*.*.ext" Exclude="bin\**;obj\**" />
